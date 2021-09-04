@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate",
+  "name": "@vibunkumar/express_boilerplate",
   "version": "1.0.0",
   "description": "Node express server Boilerplate in typescript with lint and unit testing configuration",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
     "dev": "ts-node src/server.ts",
     "build": "tsc",
