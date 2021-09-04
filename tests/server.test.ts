@@ -1,5 +1,4 @@
 import {start} from "../src/server";
-import express from "express";
 
 jest.mock('express', () => {
     return require('jest-express');
@@ -7,7 +6,11 @@ jest.mock('express', () => {
 
 describe("server", () => {
     test("successfully start the express server", async () => {
+        const logSpy = jest.spyOn(console, "log").mockImplementation();
+        
         const app = await start();
+
         expect(app).toBeDefined();
+        expect(logSpy).toHaveBeenCalled();
     })
 })
