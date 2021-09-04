@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - '16'
+before_script:
+  - echo 'Installing dependancies'
+  - npm install
+script:
+  - echo 'Running Unit Tests'
+  - npm run test
+  - echo 'Tests Completed'
