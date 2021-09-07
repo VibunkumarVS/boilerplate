@@ -2,7 +2,8 @@
 
 # Typescript Express boilerplate
 
-Boilerplate project setup with 
+Boilerplate project setup with
+
 - Jest unit tests
 - Linter
 - Prettier
@@ -10,5 +11,5 @@ Boilerplate project setup with
 
 ## Getting Started
 
-1. Install the required dependancies  `npm install`
-2. Run the local server via  `npm run dev`
+1. Install the required dependancies `npm install`
+2. Run the local server via `npm run dev`
